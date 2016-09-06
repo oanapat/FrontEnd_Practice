@@ -1,11 +1,5 @@
 img{
-	/*When we assign a 30% withd to EVERY IMAGE the result will be 30x3=90%. 
-	The images will occupy 90% or the parent element which is the body.
-	The remainder of 10% needs to be assigned so that there will be spaces between pictures and left margin, pictures between eachother and pictures and right margin.
-	Since there are 6 margins==> 10/6=1.66*/
 	width: 30%;
-	/*Using float you align the images/elements one after the other and eliminate the automatically added extra white space.
-	This helps in adding out own personal space by using the margin property*/
 	float: left;
 	margin: 1.66%;
 }
