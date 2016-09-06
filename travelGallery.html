@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery</title>
+	<!--bootstrap instalation-->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!--font awesome instalation-->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="travelGallery.css">
+		
+</head>
+<body>
+<!-- Make our NavBar fix to the top and add 70 px padding in css-->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!--added a Picture ICON here as well-->
+			<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Images</a>
+		</div>
+		<!--The collapse classe is a container which makes everything inside it dissaper. We will implement this for mobile so we can get the drop down menu button ABOVE.
+		The way the menu button knows what to collapse is through the data-target from the button and id form the collapse navbar-collapse class-->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav">
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>                                                                                                                                                     
+			<!--create ul (new group of content for the right side of the website and li's as it makes more sence to have li's inside ul's-->
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Sign Up</a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+		</div>
+	</div>
+	</div>
+</nav>
+<!-- Jumbotron-->
+	<div class="container">
+		<div class="jumbotron">
+			<!--added a camera icon using Bootstrap components glyphicon-->
+			<h1><i class="fa fa-hand-spock-o" aria-hidden="true"></i> Travel Image Gallery</h1>
+			<p> A collection of Travel Pictures</p>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-4 col-sm-6"> 
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?dpr=1.100000023841858&amp;auto=format&amp;crop=entropy&amp;fit=crop&amp;w=767&amp;h=511&amp;q=80&amp;cs=tinysrgb">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6"> 
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1466500419182-8602dc906b51?dpr=1.100000023841858&amp;auto=format&amp;crop=entropy&amp;fit=crop&amp;w=767&amp;h=511&amp;q=80&amp;cs=tinysrgb">  
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6"> 
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1430287859291-3c93e5d745ba?dpr=1.100000023841858&amp;auto=compress,format&amp;crop=entropy&amp;fit=crop&amp;w=767&amp;h=511&amp;q=80&amp;cs=tinysrgb&quot"> 
+				</div>
+			</div>
+
+			<!--Second row of Images. We DO NOT NEED to create another row as we specified that this should be lg 4-->
+			<div class="col-lg-4 col-sm-6"> 
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1468730533502-216da872eab2?dpr=1.100000023841858&amp;auto=format&amp;crop=entropy&amp;fit=crop&amp;w=767&amp;h=511&amp;q=80&amp;cs=tinysrg">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6"> 
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1468793195345-d9d67818016d?dpr=1.100000023841858&amp;auto=format&amp;crop=entropy&amp;fit=crop&amp;w=767&amp;h=511&amp;q=80&amp;cs=tinysrgb">  
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6"> 
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1456327594540-be0c28e27c01?dpr=1.100000023841858&amp;auto=format&amp;crop=entropy&amp;fit=crop&amp;w=767&amp;h=511&amp;q=80&amp;cs=tinysrgb"> 
+				</div>
+			</div>
+
+			<!--Third Row of Images-->
+			<div class="col-lg-4 col-sm-6"> 
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1451153378752-16ef2b36ad05?dpr=1.100000023841858&amp;auto=format&amp;crop=entropy&amp;fit=crop&amp;w=767&amp;h=511&amp;q=80&amp;cs=tinysrgb">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6"> 
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1466837431058-102ee1e32ba3?dpr=1.100000023841858&amp;auto=format&amp;crop=entropy&amp;fit=crop&amp;w=767&amp;h=511&amp;q=80&amp;cs=tinysrgb">  
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6"> 
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1465680949814-1ed23ecb963f?dpr=1.100000023841858&amp;auto=format&amp;crop=entropy&amp;fit=crop&amp;w=767&amp;h=511&amp;q=80&amp;cs=tinysrgb"> 
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>
