@@ -1,0 +1,25 @@
+/*creem prima celula*/
+table{
+	margin: auto;
+}
+td{
+	width:100px;
+	height:100px;
+}
+
+/*crem o class in html pentru a doua celula din primul rand*/
+.vertical{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.horizontal{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+h1{
+	text-align: center;
+}
+
+
