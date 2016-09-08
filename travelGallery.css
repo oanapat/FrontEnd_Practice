@@ -14,14 +14,11 @@ a{
 	color:white;
 }
 
-/*this line meand that navbar-nav has been overwritten*/
+/*Overwritting .navbar-nav*/
 .navbar-inverse .navbar-nav>li>a{
 	color:white;
 }
 
-/*this line means that the navbar-brand class that is inside of the navbar-inverse class has been overwritte.
-The reason it was overwritten is because, our styles(the way we want to style our webpage) clashes with the way the styles are already implemented by Bootstrap.
-This way we overwrite something that is written within another class (same as above) */
 .navbar-inverse .navbar-brand{
 	color: white;
 }
